@@ -46,6 +46,10 @@ daemon to connect to.
         eval $(docker-machine env killme)   # bash/zsh
         eval (docker-machine env killme)    # fish
 
+The windows version isn't nearly as clean:    
+
+        FOR /f "tokens=*" %i IN ('docker-machine env killme') DO %i     # Windows
+
 Now running the below docker commond should be able to give us some useful output.   
 
         docker ps
