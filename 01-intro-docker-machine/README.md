@@ -1,4 +1,4 @@
-Intro to Docker Machine
+01 - Intro to Docker Machine
 ===================================================
 
 This is the first step that we will have with docker.  The reason that we start with `docker-machine` and not just
